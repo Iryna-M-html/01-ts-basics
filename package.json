@@ -1,11 +1,11 @@
 {
-  "name": "react-v3-course-track",
+  "name": "01-ts-basics",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "01-ts-basics",
     "preview": "vite preview"
   },
   "devDependencies": {
