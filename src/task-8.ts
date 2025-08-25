@@ -13,7 +13,7 @@ const post: Post = {
   body: "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
 };
 
-async function fetchPosts() {
+async function fetchPosts(): Promise<Post[]> {
   const response = await axios.get<Post[]>(
     "https://jsonplaceholder.typicode.com/posts"
   );
